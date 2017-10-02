@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: LVE_TaxAdjustment
+Bundle-SymbolicName: LVE_TaxAdjustment;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: org.adempiere.plugin.utils.Incremental2PackActivator
+Export-Package: org.frontuari.events
+Require-Bundle: org.adempiere.base;bundle-version="4.1.0",
+ org.adempiere.plugin.utils;bundle-version="4.1.0"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Service-Component: OSGI-INF/LVE_TaxAdjustmentEvents.xml
+Bundle-ActivationPolicy: lazy
+Import-Package: org.osgi.service.event;version="1.3.0"
