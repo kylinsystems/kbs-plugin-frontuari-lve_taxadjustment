@@ -3,7 +3,7 @@ Bundle-ManifestVersion: 2
 Bundle-Category: kbs-plugin
 Bundle-Name: KBS Plugin : Frontuari LVE_TaxAdjustment
 Bundle-SymbolicName: com.kylinsystems.kbs.plugins.frontuari.lvetaxadjustment;singleton:=true
-Bundle-Version: 8.1.0.qualifier
+Bundle-Version: 8.2.0.qualifier
 Bundle-Activator: org.adempiere.plugin.utils.Incremental2PackActivator
 Export-Package: org.frontuari.component,
  org.frontuari.events,
